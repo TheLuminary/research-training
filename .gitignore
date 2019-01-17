@@ -1,0 +1,31 @@
+﻿# Visual Studio Solution User Options (.suo)
+*.suo
+# Per-User Project Options File (.user)
+*.user
+# VC++ Intellisense Database (.ncb)
+# 智能感知信息文件
+*.ncb
+
+# 编译连接过程生成的文件
+# Object File (.obj)
+*.obj
+# VC++ Minimum Rebuild Dependency File (.idb)
+*.idb
+# Program Debug Database (.pdb)
+*.pdb
+# Incremental Linker File (.ilk)
+*.ilk
+# Compiled Resource Script (.res)
+*.res
+# 这两个文件和上面的往往同在一个目录
+*.dep
+*.manifest
+
+# .exe不用解释
+*.exe
+
+# 主要针对BuildLog.htm
+# 现在的前端生成的都是html文件（更多的是.js文件和.ts文件）
+# 还有一些是Dart等等
+# 所以可以放心大胆地排除所有的.htm文件
+*.htm
